@@ -1,0 +1,7 @@
+[general]
+name=QuickAzimuthDockable
+description=Dockable azimuth-based polygon drawing tool with coordinate input
+version=1.1
+qgisMinimumVersion=3.10
+author=Michel El Hourani
+email=michel@example.com
