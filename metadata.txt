@@ -1,7 +1,12 @@
 [general]
-name=QuickAzimuthDockable
-description=Dockable azimuth-based polygon drawing tool with coordinate input
-version=1.1
-qgisMinimumVersion=3.10
-author=Michel El Hourani
+name=QuickAzimuthPlus
+qgisMinimumVersion=3.28
+description=A plugin for digitizing polygons using azimuth and distance, including reverse engineering from selected polygons.
+version=1.0.0
+author=Michel Hourani
 email=michel651@gmail.com
+homepage=https://github.com/mikha651/QuickAzimuthPlus
+tracker=https://github.com/mikha651/QuickAzimuthPlus/issues
+repository=https://github.com/mikha651/QuickAzimuthPlus.git
+category=Digitizing
+icon=icon.png
