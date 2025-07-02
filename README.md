@@ -13,12 +13,6 @@
 - Clears everything with "New"
 - Opens attribute form upon commit
 
-## 🛠 Installation
-
-1. Download the ZIP from [Releases](https://github.com/mikha651/QuickAzimuthPlus/archive/refs/heads/main.zip)
-2. Open QGIS → Plugins → Manage and Install Plugins → Install from ZIP
-3. Select the file and enable the plugin
-
 ## 🖼 Screenshot
 
 ![QuickAzimuth Screenshot](screenshot.png)
