@@ -14,6 +14,8 @@ icon=icon.png
 category=Vector
 experimental=False
 deprecated=False
+plugin_upload=true
+license=MIT
 
 [help]
 changelog=CHANGELOG.md
