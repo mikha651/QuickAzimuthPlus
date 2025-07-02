@@ -15,7 +15,7 @@
 
 ## 🛠 Installation
 
-1. Download the ZIP from [Releases](https://github.com/YOUR_USERNAME/QuickAzimuthDockable/releases)
+1. Download the ZIP from [Releases](https://github.com/mikha651/QuickAzimuthDockable/releases)
 2. Open QGIS → Plugins → Manage and Install Plugins → Install from ZIP
 3. Select the file and enable the plugin
 
