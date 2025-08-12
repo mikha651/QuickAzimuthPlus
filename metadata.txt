@@ -1,0 +1,21 @@
+[general]
+name=QuickAzimuthPlus
+qgisMinimumVersion=3.16
+description=🧭 QuickAzimuthPlus: Digitize polygons by entering azimuth and distance values, or extract azimuth/distance from existing polygons.
+about=An interactive QGIS plugin to create precise polygons using azimuths and distances, and reverse-engineer geometry from selected polygons back into azimuth/distance tables.
+version=1.1.0
+author=mikha651
+email=michel651@gmail.com
+tags=azimuth,distance,geometry,digitizing,polygon,qgis,surveying,measurement
+homepage=https://github.com/mikha651/QuickAzimuthPlus
+repository=https://github.com/mikha651/QuickAzimuthPlus
+tracker=https://github.com/mikha651/QuickAzimuthPlus/issues
+icon=icon.png
+category=Vector
+experimental=False
+deprecated=False
+plugin_upload=true
+license=MIT
+
+[help]
+changelog=CHANGELOG.md
