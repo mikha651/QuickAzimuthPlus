@@ -44,8 +44,10 @@ class QuickAzimuthPlugin:
                 pass
 
     def open_dock(self):
-        if self.dock:  # ✅ Prevent multiple panels
+        if self.dock and self.dock.isVisible():
             self.dock.raise_()
+            return
+        elif self.dock:
             self.dock.show()
             return
 
@@ -259,11 +261,6 @@ class QuickAzimuthPlugin:
         self.points = []
 
     def on_dock_closed(self, event):
-        self.reset()
-        if self.selected_layer:
-            try:
-                self.selected_layer.selectionChanged.disconnect(self.on_selection_changed)
-            except:
-                pass
-        event.accept()
-        self.dock = None
+        event.ignore()  # ❌ Don't destroy it, just hide
+        self.dock.hide()
+
