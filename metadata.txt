@@ -1,12 +1,12 @@
 [general]
 name=QuickAzimuthPlus
 qgisMinimumVersion=3.16
-description=🧭 QuickAzimuthPlus: Digitize polygons by entering azimuth and distance values, or extract azimuth/distance from existing polygons.
-about=An interactive QGIS plugin to create precise polygons using azimuths and distances, and reverse-engineer geometry from selected polygons back into azimuth/distance tables.
-version=1.1.0
+description=🧭 QuickAzimuth+: Create polygons from azimuth & distance or reverse-engineer existing polygons, with CRS handling and UTM validation.
+about=QuickAzimuthPlus allows creating polygons by entering azimuths and distances or by selecting existing polygons to extract azimuth/distance. Supports CRS transformation (Minna / UTM 31N & 32N), UTM bounds validation, and a modern emoji-based UI.
+version=1.2.0
 author=mikha651
 email=michel651@gmail.com
-tags=azimuth,distance,geometry,digitizing,polygon,qgis,surveying,measurement
+tags=polygon,azimuth,distance,utm,crs,qgis,geometry,plugin
 homepage=https://github.com/mikha651/QuickAzimuthPlus
 repository=https://github.com/mikha651/QuickAzimuthPlus
 tracker=https://github.com/mikha651/QuickAzimuthPlus/issues
@@ -14,8 +14,6 @@ icon=icon.png
 category=Vector
 experimental=False
 deprecated=False
-plugin_upload=true
-license=MIT
 
 [help]
 changelog=CHANGELOG.md
