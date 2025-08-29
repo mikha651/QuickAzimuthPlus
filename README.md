@@ -42,7 +42,7 @@ It also lets you reverse-engineer polygons into azimuth/distance tables for easy
 
 - [GitHub Repository](https://github.com/mikha651/QuickAzimuthPlus)  
 - [Issue Tracker](https://github.com/mikha651/QuickAzimuthPlus/issues)  
-- [QGIS Plugin Repository](https://plugins.qgis.org/plugins/QuickAzimuthPlus/) *(after approval)*
+- [QGIS Plugin Repository](https://plugins.qgis.org/plugins/QuickAzimuthPlus/)
 
 ## 📜 License
 
